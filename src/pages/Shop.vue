@@ -16,14 +16,13 @@ import shopItem from "@/components/ShopItem.vue";
 
 export default {
   components: { shopItem },
-  data() {
+  data () {
     return {
       shopList: null
-    };
+    }
   },
-  created() {
-    this.shopList = this.$store.getters.getShopList;
-    console.log(this.shopList);
+  created () {
+    this.shopList = this.$store.getters.getShopList
   }
-};
+}
 </script>

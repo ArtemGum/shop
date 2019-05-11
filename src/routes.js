@@ -13,7 +13,8 @@ import Product from '@/pages/Product'
 //Routering
 export default new Router({
 	// modes: 'history',
-	routes: [{
+	routes: [
+		{
 			path: '/',
 			name: 'home',
 			component: Home
